@@ -1,7 +1,7 @@
 .img-self{
     border-radius: 50% !important;
     height: 200px;
-    /* width: 300px; */
+    width: 200px;
 }
 .para-per{
     font-size: 32px;
@@ -11,16 +11,9 @@
     font-size: 25px;
     
 }
-.col2-per{
-    /* background-color: #b4ccba; */
-    
-}
+
 .con-per{
-    /* background-image: url(/assets/img/bg-main2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* height: 100%; */
-    /* width: 100%; */
+    
     background: rgba(16, 46, 196,  0.3)
     
     
@@ -31,7 +24,7 @@ html, body{
     
 }
 .main{
-    background-image: url(/assets/img/bg-main3.jpg);
+    background-image: url(/assets/img/bg-main4.jpg);
     background-repeat: repeat-x;
     background-size: cover;
     color: whitesmoke;
@@ -43,12 +36,54 @@ html, body{
 }
 .info-per{
     color: #b5fff8;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .det-per{
     color: #f7faf8;
     font-size: 22px !important;
 }
-.abt-per{
-    
+
+.project-btn-per{
+    font-size: 32px;
+    margin: 10px;
+}
+
+
+.projects-bgshadow{
+    box-shadow: 0 0 10px gray;
+    border-radius: 7px;
+    background-color: beige;
+    transition: 0.3s;
+}
+.projects-bgshadow:hover{
+    box-shadow: 0 0 30px gray;
+    transform: 3;
+
+}
+.details-per{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    color: black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name-per{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.socials-btn-per:hover{
+    box-shadow: 0 0 15px gray;
+    height: 10vh;
+
+}
+.project2-per, {
+    transition: 0.4s;
+}
+.project2-per,:hover{
+    transform: 3;
+    box-shadow: 0 0 35px lightblue;
+    border-radius: 15px;
 }
