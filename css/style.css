@@ -52,7 +52,7 @@ html, body{
 .projects-bgshadow{
     box-shadow: 0 0 10px gray;
     border-radius: 7px;
-    background-color: beige;
+    background-color: #bfbfbf;
     transition: 0.3s;
 }
 .projects-bgshadow:hover{
@@ -146,10 +146,18 @@ html, body{
     margin: 5px;
   }
   
-  /* .button-62:focus {
-    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-  } */
-  
   .button-62:hover {
     box-shadow: 0 0 15px lightblue
+  }
+
+  .nav-per:hover{
+    box-shadow: 0 0 0px white;
+
+  }
+  .nav-per-ext{
+      background-color: rgba(0, 0, 179, 0.45);
+  }
+  .project-txt-per{
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
   }
